@@ -21,5 +21,13 @@ $(document).ready(function () {
         alternate_url = '/en/about-me';
     }
 
+    if(current_page === 'contact') {
+        alternate_url = '/es/contacto';
+    }
+
+    if(current_page === 'contacto') {
+        alternate_url = '/en/contact';
+    }
+
     $('.alternate-link').attr('href', window.location.protocol + '//' + window.location.host + alternate_url);
 });
