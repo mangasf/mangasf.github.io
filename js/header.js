@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
     const current_url = window.location.href.split('/');
+    const current_lang = current_url[current_url.length - 3];
     const current_page = current_url[current_url.length - 2];
 
     let alternate_url = '';
@@ -19,6 +20,22 @@ $(document).ready(function () {
 
     if(current_page === 'sobre-mi') {
         alternate_url = '/en/about-me';
+    }
+
+    if(current_page === 'posts' && current_lang === 'es') {
+        alternate_url = '/en/posts';
+    }
+
+    if(current_page === 'posts' && current_lang === 'en') {
+        alternate_url = '/es/posts';
+    }
+
+    if(current_page === 'reuniones-uno-a-uno') {
+        alternate_url = '/en/posts/meets-one-to-one';
+    }
+
+    if(current_page === 'meets-one-to-one') {
+        alternate_url = '/es/posts/reuniones-uno-a-uno';
     }
 
     if(current_page === 'contact') {
