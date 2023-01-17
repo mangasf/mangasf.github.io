@@ -38,6 +38,14 @@ $(document).ready(function () {
         alternate_url = '/es/posts/reuniones-uno-a-uno';
     }
 
+    if(current_page === 'outsourcing-para-acelerar-el-desarrollo-de-tu-producto') {
+        alternate_url = '/en/posts/outsourcing-to-accelerate-product-development';
+    }
+
+    if(current_page === 'outsourcing-to-accelerate-product-development') {
+        alternate_url = '/es/posts/outsourcing-para-acelerar-el-desarrollo-de-tu-producto';
+    }
+
     if(current_page === 'contact') {
         alternate_url = '/es/contacto';
     }
