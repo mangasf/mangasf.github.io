@@ -46,6 +46,22 @@ $(document).ready(function () {
         alternate_url = '/es/posts/outsourcing-para-acelerar-el-desarrollo-de-tu-producto';
     }
 
+    if(current_page === 'cómo-ser-un-mentor-de-ingenieros-efectivo') {
+        alternate_url = '/en/posts/how-to-be-an-effective-engineering-mentor/';
+    }
+
+    if(current_page === 'how-to-be-an-effective-engineering-mentor') {
+        alternate_url = '/es/posts/cómo-ser-un-mentor-de-ingenieros-efectivo/';
+    }
+
+    if(current_page === 'radical-candor-la-clave-para-construir-equipos-de-alto-rendimiento') {
+        alternate_url = '/en/posts/radical-candor-the-key-to-building-high-performing-teams/';
+    }
+
+    if(current_page === 'radical-candor-the-key-to-building-high-performing-teams') {
+        alternate_url = '/es/posts/radical-candor-la-clave-para-construir-equipos-de-alto-rendimiento/';
+    }
+
     if(current_page === 'contact') {
         alternate_url = '/es/contacto';
     }
