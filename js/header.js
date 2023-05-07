@@ -62,6 +62,14 @@ $(document).ready(function () {
         alternate_url = '/es/posts/radical-candor-la-clave-para-construir-equipos-de-alto-rendimiento/';
     }
 
+    if(current_page === 'reuniones-efectivas-tomando-notas-con-notion-y-chatgpt') {
+        alternate_url = '/en/posts/note-taking-with-notion-and-chatgpt-for-effective-meetings/';
+    }
+
+    if(current_page === 'note-taking-with-notion-and-chatgpt-for-effective-meetings') {
+        alternate_url = '/es/posts/reuniones-efectivas-tomando-notas-con-notion-y-chatgpt/';
+    }
+
     if(current_page === 'contact') {
         alternate_url = '/es/contacto';
     }
