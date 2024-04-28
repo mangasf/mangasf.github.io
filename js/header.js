@@ -70,6 +70,14 @@ $(document).ready(function () {
         alternate_url = '/es/posts/reuniones-efectivas-tomando-notas-con-notion-y-chatgpt/';
     }
 
+    if(current_page === 'mejorar-la-eficiencia-en-los-equipos-remotos') {
+        alternate_url = '/en/posts/improve-the-engagement-on-remote-teams/';
+    }
+
+    if(current_page === 'improve-the-engagement-on-remote-teams') {
+        alternate_url = '/es/posts/mejorar-la-eficiencia-en-los-equipos-remotos/';
+    }
+
     if(current_page === 'contact') {
         alternate_url = '/es/contacto';
     }
