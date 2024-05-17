@@ -14,12 +14,12 @@ $(document).ready(function () {
         alternate_url = '/en/'
     }
 
-    if(current_page === 'about-me') {
-        alternate_url = '/es/sobre-mi';
+    if(current_page === 'about-us') {
+        alternate_url = '/es/sobre-nosotros';
     }
 
-    if(current_page === 'sobre-mi') {
-        alternate_url = '/en/about-me';
+    if(current_page === 'sobre-nosotros') {
+        alternate_url = '/en/about-us';
     }
 
     if(current_page === 'posts' && current_lang === 'es') {
