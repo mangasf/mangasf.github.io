@@ -14,6 +14,14 @@ $(document).ready(function () {
         alternate_url = '/en/'
     }
 
+    if(current_page === 'services') {
+        alternate_url = '/es/servicios';
+    }
+
+    if(current_page === 'servicios') {
+        alternate_url = '/en/services';
+    }
+
     if(current_page === 'about-us') {
         alternate_url = '/es/sobre-nosotros';
     }
